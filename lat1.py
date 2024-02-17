@@ -4,7 +4,7 @@ import pandas as pd
 
 st.write("Elzy Tabel Coding")
 df = pd.DataFrame({
-    'No' : [1, 2, 3, 4, 5, 6],
+    'No' : [1, 2, 3, 4,],
     'Nama' : ['Nurul', 'Nadia', 'Vino', 'Zahwa'],
     'Tinggi' : [98, 90, 83, 92]
 })
