@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 #import matplotlib.pyplot as plt
 
-st.write("Elzy Tabel Coding")
+st.write("Kesukaan")
 df = pd.DataFrame({
     'No' : [1, 2, 3, 4,],
-    'Nama' : ['Nurul', 'Nadia', 'Vino', 'Zahwa'],
-    'Tinggi' : [98, 90, 83, 92]
+    'Nama' : ['KK', 'UU', 'OO', 'II'],
+    'Rating' : [8, 9, 5, 6]
 })
 
 df
