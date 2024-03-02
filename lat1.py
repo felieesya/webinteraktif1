@@ -1,4 +1,7 @@
 import streamlit as st
+from page1 import page_1
+from page2 import page_2
+from page3 import page_3
 #import pandas as pd
 #import matplotlib.pyplot as plt
 
@@ -11,15 +14,7 @@ import streamlit as st
 
 # df
 
-def page_1():
-    st.title("Halaman 1")
-    st.write('Halaman ini digunakan untuk Intro')
-def page_2():
-    st.title("Halaman 2")
-    st.write('Halaman ini digunakan untuk Menampilkan Youtube')
-def page_3():
-    st.title("Halaman 3")
-    st.write('Halaman ini digunakan untuk Menampilkan Rumus Matematika')
+
 
 PAGES = {
     "Page 1" : page_1,
@@ -27,7 +22,7 @@ PAGES = {
     "Page 3" : page_3
 }
 
-st.sidebar.image("elzy.png", width=200)
+st.sidebar.image("bulat.png", width=200)
 page = st.sidebar.radio("Halaman", list(PAGES.keys()))
 PAGES[page]()
 
