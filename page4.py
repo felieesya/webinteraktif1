@@ -9,4 +9,4 @@ def page_4():
 
     if hitung :
         luas = panjang * lebar
-        st.success (f"Luas Persegi Panjang Adalah = {luas} cm")
+        st.success (f"Luas Persegi Panjang Adalah = {luas}")
