@@ -34,10 +34,10 @@ PAGES[page]()
 st.markdown(
     """
         <style>
-        [data-testid= "stActionButtonIcon"] {
+        [data-testid="stActionButtonIcon"] {
             display: none;
         }
-        [data-testid= "baseButton-header"] {
+        [data-testid="baseButton-header"] {
             display: none;
         }
                 
@@ -46,7 +46,7 @@ st.markdown(
                 
         </style>
         """,
-    unsafe_allow_html= True,
+    unsafe_allow_html=True,
 )
 
 
