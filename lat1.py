@@ -30,23 +30,23 @@ st.sidebar.image("bulat.png", width=200)
 page = st.sidebar.radio("Halaman", list(PAGES.keys()))
 PAGES[page]()
 
-def main():
-    st.markdown(
-        """
-            <style>
-            [data-testid= "stActionButtonIcon"] {
-                display: none;
-            }
-            [data-testid= "baseButton-header"] {
-                display: none;
-            }
-            
-            #Mainmenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            
-            </style>
-            """,
-        unsafe_allow_html= True,
-    )
+
+st.markdown(
+    """
+        <style>
+        [data-testid= "stActionButtonIcon"] {
+            display: none;
+        }
+        [data-testid= "baseButton-header"] {
+            display: none;
+        }
+                
+        #Mainmenu {visibility: hidden;}
+        footer {visibility: hidden;}
+                
+        </style>
+        """,
+    unsafe_allow_html= True,
+)
 
 
