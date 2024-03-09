@@ -41,7 +41,7 @@ st.markdown(
                 display: none;
             }
                     
-            #Mainmenu {visibility: hidden;}
+            #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
                     
             </style>
